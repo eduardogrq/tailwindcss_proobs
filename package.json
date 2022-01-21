@@ -1,0 +1,24 @@
+{
+  "name": "tailwindcss_proobs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "buildcss": "npx tailwindcss -i ./src/css/styles.css -o ./public/css/styles.css --watch"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardogrq/tailwindcss_proobs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardogrq/tailwindcss_proobs/issues"
+  },
+  "homepage": "https://github.com/eduardogrq/tailwindcss_proobs#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.15"
+  }
+}
